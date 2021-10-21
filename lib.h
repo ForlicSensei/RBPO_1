@@ -3,7 +3,7 @@
 #include <string.h>
 #include <locale.h>
 typedef struct Person Person;
-int CompareString(const char* lhs, const char* rhs);
+int CompareStrings(const char* lhs, const char* rhs);
 
 struct Person {
     char* firstName;

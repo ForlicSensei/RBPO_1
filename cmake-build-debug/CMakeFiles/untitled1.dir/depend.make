@@ -3,16 +3,16 @@
 
 CMakeFiles/untitled1.dir/CompareStrings.c.obj: \
  ../CompareStrings.c \
- ../locals.h
+ ../lib.h
 CMakeFiles/untitled1.dir/GetPersons.c.obj: \
  ../GetPersons.c \
- ../locals.h
+ ../lib.h
 CMakeFiles/untitled1.dir/PrintAllPerson.c.obj: \
  ../PrintAllPerson.c \
- ../locals.h
+ ../lib.h
 CMakeFiles/untitled1.dir/Sort.c.obj: \
  ../Sort.c \
- ../locals.h
+ ../lib.h
 CMakeFiles/untitled1.dir/main.c.obj: \
- ../locals.h \
+ ../lib.h \
  ../main.c
