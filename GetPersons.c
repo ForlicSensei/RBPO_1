@@ -38,7 +38,7 @@ Person* GetPersons(int argc, char* argv[], int* count) {
                     strcpy(p[index].thirdName, argv[j + 1]);
                 }
                 if (CompareStrings(argv[j], "--age") == 0) {
-                    int age = atoi(argv[j + 1]);
+                    short int age = strtol(argv[j + 1],0,10);
                     p[index].birthYear = age;
                 }
             }
